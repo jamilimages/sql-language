@@ -22,6 +22,7 @@ FROM sec1413_fruits a
     RIGHT OUTER JOIN sec1413_colors b 
     /* Right outer join statement collects data from 'sec1413_colors b' of rows 
     to the left side column so that it matches with the data on the right side of the table.*/
+    
     ON a.f_num = b.c_num;
 ```
 
