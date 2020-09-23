@@ -3,9 +3,9 @@ SQL language code here.
 
 #### SQL - Left, Right, Full Outer Join statements
 ```sql
-    SELECT a.*, b.*
+SELECT a.*, b.*
 
-FROM sec1413_fruits a
+    FROM sec1413_fruits a
     
     LEFT OUTER JOIN sec1413_colors b 
     /* Left outer join statement collects data from 'sec1413_colors b' of rows 
@@ -13,11 +13,11 @@ FROM sec1413_fruits a
     
     ON a.f_num = b.c_num
     
-UNION
+    UNION
 
 SELECT a.*, b.*
 
-FROM sec1413_fruits a
+    FROM sec1413_fruits a
 
     RIGHT OUTER JOIN sec1413_colors b 
     /* Right outer join statement collects data from 'sec1413_colors b' of rows 
