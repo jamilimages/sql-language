@@ -7,7 +7,7 @@ SQL language code here.
 
 FROM sec1413_fruits a
     
-    LEFT OUTER JOIN sec1413_colors b
+    LEFT OUTER JOIN sec1413_colors b -- Left outer join statement collects data from 'sec1413_colors b' of rows to the right side column so that it matches with the data on the left side of the table .
     
     ON a.f_num = b.c_num
     
@@ -17,8 +17,7 @@ SELECT a.*, b.*
 
 FROM sec1413_fruits a
 
-    RIGHT OUTER JOIN sec1413_colors b
-    
+    RIGHT OUTER JOIN sec1413_colors b -- Right outer join statement collects data from 'sec1413_colors b' of rows to the left side column so that it matches with the data on the right side of the table .
     ON a.f_num = b.c_num;
 ```
 
