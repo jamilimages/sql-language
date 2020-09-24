@@ -1,7 +1,7 @@
-# sql-language
+# SQL language
 SQL language code here.
 
-#### SQL - Left, Right, Full Outer Join statements
+#### Example of Left, Right, Full Outer Join statements
 ```sql
 SELECT a.*, b.*
 
