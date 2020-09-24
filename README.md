@@ -26,9 +26,10 @@ SELECT a.*, b.*
     ON a.f_num = b.c_num;
 ```
 
-#### Example of using a Substring (SUBSTR) to concatenate names
 ![image](https://user-images.githubusercontent.com/36749450/94019264-90c93200-fd7f-11ea-85b8-158f93d84266.png)
 
+
+#### Example of using a Substring (SUBSTR) to concatenate names
 ```sql
 
 SELECT employee_id,
@@ -39,4 +40,5 @@ SELECT employee_id,
 FROM l_employees;
 
 ```
+![image](https://user-images.githubusercontent.com/36749450/94173575-22a96b80-fe62-11ea-8d89-e3a5d908bf50.png)
 
