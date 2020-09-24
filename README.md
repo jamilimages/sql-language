@@ -30,7 +30,7 @@ SELECT a.*, b.*
 
 SELECT employee_id,
 
-    last_name || ' ' || SUBSTR(first_name, 1, 1) AS full_name -- NOTE: SUBSTR can take off strings from a variable (such as a person, place or thing).
+    last_name || ' ' || SUBSTR(first_name, 1, 1) AS full_name -- NOTE: SUBSTR can extract strings from a variable string (such as a person, place or thing).
     -- (1 - starting position, 1 - means the length of the character)
     
 FROM l_employees;
