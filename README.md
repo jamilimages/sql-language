@@ -26,6 +26,17 @@ SELECT a.*, b.*
     ON a.f_num = b.c_num;
 ```
 
-#### Example of Left Outer join statement
+#### Example of using a Substring (SUBSTR) to concatenate names
 ![image](https://user-images.githubusercontent.com/36749450/94019264-90c93200-fd7f-11ea-85b8-158f93d84266.png)
+
+```sql
+
+SELECT employee_id,
+
+    last_name || ' ' || SUBSTR(first_name, 1, 1) AS full_name -- NOTE: SUBSTR can take off strings from a variable (such as a person, place or thing).
+    -- (1 - starting position, 1 - means the length of the character)
+    
+FROM l_employees;
+
+```
 
